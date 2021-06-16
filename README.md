@@ -7,7 +7,7 @@
   ```bash
   react-native init hello
   cd hello
-  yarn add react-native-t m k
+  yarn add react-native-tmk-baidumobstat
   react-native link
   ```
 
