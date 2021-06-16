@@ -1,5 +1,7 @@
-rootProject.name = 'example'
+rootProject.name = 'BaiduTongji'
 include ':react-native-tmk-baidumobstat'
 project(':react-native-tmk-baidumobstat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tmk-baidumobstat/android')
-
+include ':react-native-tmk-baidumobstat'
+project(':react-native-tmk-baidumobstat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tmk-baidumobstat/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
