@@ -833,10 +833,6 @@ babylon@^6.17.0, babylon@^6.17.2, babylon@^6.17.4:
   version "6.17.4"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.17.4.tgz#3e8b7402b88d22c3423e137a1577883b15ff869a"
 
-baidumobstat-react-native@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/baidumobstat-react-native/-/baidumobstat-react-native-1.0.0.tgz#4db92ccb23c6ab273f4062ca10cf1f5dcd871f7e"
-
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -3066,6 +3062,11 @@ react-devtools-core@2.3.1:
   dependencies:
     shell-quote "^1.6.1"
     ws "^2.0.3"
+
+react-native-tmk-baidumobstat@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/react-native-tmk-baidumobstat/-/react-native-tmk-baidumobstat-1.1.7.tgz#457c32ed4f7d56a1d624d709de7f4e51ad93659b"
+  integrity sha512-X25R/RJPMBJimccKWetVLsdJZXj7cVih4Wm4QXnGFtvF7QGoguev/XKgJuIp/tZj2IFqOExCgo5DAnDmgD8pEg==
 
 react-native@0.46.4:
   version "0.46.4"

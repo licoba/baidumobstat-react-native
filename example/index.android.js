@@ -6,7 +6,7 @@
 
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View, Button } from "react-native";
-import BaiduMobStat from "baidumobstat-react-native";
+import BaiduMobStat from "react-native-tmk-baidumobstat";
 
 export default class example extends Component {
   setUserId() {
@@ -15,8 +15,8 @@ export default class example extends Component {
 
   setGlobalExtraInfo() {
     BaiduMobStat.setGlobalExtraInfo({
-      "V1":"value1",
-      "V2":"value2"
+      V1: "value1",
+      V2: "value2",
     });
   }
   onEvent() {
@@ -41,7 +41,7 @@ export default class example extends Component {
 
   onEventWithAttributesDuration() {
     BaiduMobStat.onEventDurationWithAttributes("event5", "事件五", 1000, {
-      分类: "分类一"
+      分类: "分类一",
     });
   }
 
@@ -50,7 +50,9 @@ export default class example extends Component {
   }
 
   onEventEndWithAttributes() {
-    BaiduMobStat.onEventEndWithAttributes("event6", "事件六", { 分类: "分类一" });
+    BaiduMobStat.onEventEndWithAttributes("event6", "事件六", {
+      分类: "分类一",
+    });
   }
 
   onPageStart() {
@@ -64,12 +66,18 @@ export default class example extends Component {
     return (
       <View style={styles.container}>
         <Button onPress={() => this.setUserId()} title="设置userId" />
-        <Button onPress={() => this.setGlobalExtraInfo()} title="设置ExtraInfo" />
+        <Button
+          onPress={() => this.setGlobalExtraInfo()}
+          title="设置ExtraInfo"
+        />
         <Button onPress={() => this.onEvent()} title="事件一" />
         <Button onPress={() => this.onEventDuration()} title="事件二" />
         <Button onPress={() => this.onEventStart()} title="事件三开始" />
         <Button onPress={() => this.onEventEnd()} title="事件三结束" />
-        <Button onPress={() => this.onEventWithAttributes()} title="事件四（带属性）" />
+        <Button
+          onPress={() => this.onEventWithAttributes()}
+          title="事件四（带属性）"
+        />
         <Button
           onPress={() => this.onEventWithAttributesDuration()}
           title="事件五"
@@ -87,7 +95,11 @@ export default class example extends Component {
           title="页面开始"
           color="#841584"
         />
-        <Button onPress={() => this.onPageEnd()} title="页面结束" color="#841584" />
+        <Button
+          onPress={() => this.onPageEnd()}
+          title="页面结束"
+          color="#841584"
+        />
       </View>
     );
   }
@@ -98,18 +110,18 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF"
+    backgroundColor: "#F5FCFF",
   },
   welcome: {
     fontSize: 20,
     textAlign: "center",
-    margin: 10
+    margin: 10,
   },
   instructions: {
     textAlign: "center",
     color: "#333333",
-    marginBottom: 5
-  }
+    marginBottom: 5,
+  },
 });
 
 AppRegistry.registerComponent("example", () => example);
