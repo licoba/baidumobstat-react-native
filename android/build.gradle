@@ -18,5 +18,6 @@ android {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.baidu.mobstat:mtj-sdk:latest.integration'
+    // compile 'com.baidu.mobstat:mtj-sdk:latest.integration' // 手动埋点版本
+    compile 'com.baidu.mobstat:mtj-sdk-circle:latest.integration' //圈选埋点版本
 }
