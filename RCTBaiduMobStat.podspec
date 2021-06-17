@@ -19,8 +19,6 @@ Pod::Spec.new do |spec|
   spec.homepage     = pjson["homepage"]
   spec.license      = pjson["license"]
   spec.author       = { "licoba" => "licoba@163.com" }
-  spec.platform     = :ios, "11.0"
-  spec.ios.deployment_target = "11.0"
   spec.source       = { :git => "https://github.com/licoba/baidumobstat-react-native.git", :tag => "#{spec.version}" }
   spec.source_files    = 'ios/RCTBaiduMobStat/*.{h,m}'
   spec.preserve_paths  = "**/*.js"
