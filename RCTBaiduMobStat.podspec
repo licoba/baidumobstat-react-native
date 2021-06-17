@@ -31,6 +31,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "ios/RCTBaiduMobStat/*.h"
   ###### 此处设置依赖
   spec.static_framework = true
+  spec.ios.vendored_frameworks = 'ios/RCTBaiduMobStat/UserFeedBack.framework'
   spec.ios.vendored_libraries = 'ios/RCTBaiduMobStat/*.a'
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
