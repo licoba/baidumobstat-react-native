@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.description  = pjson["description"]
   spec.homepage     = pjson["homepage"]
   spec.license      = pjson["license"]
+  spec.platforms    = { :ios => "10.0" }
   spec.author       = { "licoba" => "licoba@163.com" }
   spec.source       = { :git => "https://github.com/licoba/baidumobstat-react-native.git", :tag => "#{spec.version}" }
   spec.source_files    = 'ios/RCTBaiduMobStat/*.{h,m}'
