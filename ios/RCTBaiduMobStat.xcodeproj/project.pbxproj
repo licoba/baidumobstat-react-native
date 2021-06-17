@@ -3,23 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45FE15FE21D231E600BA2090 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FE15FD21D231E600BA2090 /* libBaiduMobStat.a */; };
-		7E68A4F81F1DD1FC0073A18D /* RCTBaiduMobStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E68A4F71F1DD1FC0073A18D /* RCTBaiduMobStat.m */; };
-		7E68A4F91F1DD1FC0073A18D /* RCTBaiduMobStat.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 7E68A4F61F1DD1FC0073A18D /* RCTBaiduMobStat.h */; };
-		7E68A5211F1DE8BD0073A18D /* BaiduMobStat.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 7E68A5181F1DD8210073A18D /* BaiduMobStat.h */; };
-		7E68A5241F1DEA2D0073A18D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5231F1DEA2D0073A18D /* JavaScriptCore.framework */; };
-		7E68A52A1F1DEA4C0073A18D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5291F1DEA4C0073A18D /* CoreGraphics.framework */; };
-		7E68A52C1F1DEA520073A18D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A52B1F1DEA520073A18D /* CoreTelephony.framework */; };
-		7E68A52E1F1DEA590073A18D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A52D1F1DEA590073A18D /* SystemConfiguration.framework */; };
-		7E68A5301F1DEA5E0073A18D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A52F1F1DEA5E0073A18D /* CoreLocation.framework */; };
-		7E68A5321F1DEA670073A18D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5311F1DEA670073A18D /* Security.framework */; };
-		7E68A5341F1DEA6D0073A18D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5331F1DEA6D0073A18D /* Foundation.framework */; };
-		7E68A5361F1DEA720073A18D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5351F1DEA720073A18D /* UIKit.framework */; };
-		7E68A5381F1DEA840073A18D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5371F1DEA840073A18D /* WebKit.framework */; };
+		15470684267B57D000EB525A /* UserFeedBack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15470683267B57D000EB525A /* UserFeedBack.framework */; platformFilter = ios; };
+		45FE15FE21D231E600BA2090 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FE15FD21D231E600BA2090 /* libBaiduMobStat.a */; platformFilter = ios; };
+		7E68A4F81F1DD1FC0073A18D /* RCTBaiduMobStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E68A4F71F1DD1FC0073A18D /* RCTBaiduMobStat.m */; platformFilter = ios; };
+		7E68A4F91F1DD1FC0073A18D /* RCTBaiduMobStat.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 7E68A4F61F1DD1FC0073A18D /* RCTBaiduMobStat.h */; platformFilter = ios; };
+		7E68A5211F1DE8BD0073A18D /* BaiduMobStat.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 7E68A5181F1DD8210073A18D /* BaiduMobStat.h */; platformFilter = ios; };
+		7E68A5241F1DEA2D0073A18D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5231F1DEA2D0073A18D /* JavaScriptCore.framework */; platformFilter = ios; };
+		7E68A52A1F1DEA4C0073A18D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5291F1DEA4C0073A18D /* CoreGraphics.framework */; platformFilter = ios; };
+		7E68A52C1F1DEA520073A18D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A52B1F1DEA520073A18D /* CoreTelephony.framework */; platformFilter = ios; };
+		7E68A52E1F1DEA590073A18D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A52D1F1DEA590073A18D /* SystemConfiguration.framework */; platformFilter = ios; };
+		7E68A5301F1DEA5E0073A18D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A52F1F1DEA5E0073A18D /* CoreLocation.framework */; platformFilter = ios; };
+		7E68A5321F1DEA670073A18D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5311F1DEA670073A18D /* Security.framework */; platformFilter = ios; };
+		7E68A5341F1DEA6D0073A18D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5331F1DEA6D0073A18D /* Foundation.framework */; platformFilter = ios; };
+		7E68A5361F1DEA720073A18D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5351F1DEA720073A18D /* UIKit.framework */; platformFilter = ios; };
+		7E68A5381F1DEA840073A18D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68A5371F1DEA840073A18D /* WebKit.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15470683267B57D000EB525A /* UserFeedBack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserFeedBack.framework; path = RCTBaiduMobStat/UserFeedBack.framework; sourceTree = "<group>"; };
 		45FE15FD21D231E600BA2090 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
 		7E68A4F31F1DD1FC0073A18D /* libRCTBaiduMobStat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBaiduMobStat.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E68A4F61F1DD1FC0073A18D /* RCTBaiduMobStat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTBaiduMobStat.h; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				7E68A52C1F1DEA520073A18D /* CoreTelephony.framework in Frameworks */,
 				7E68A52A1F1DEA4C0073A18D /* CoreGraphics.framework in Frameworks */,
 				7E68A5241F1DEA2D0073A18D /* JavaScriptCore.framework in Frameworks */,
+				15470684267B57D000EB525A /* UserFeedBack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +109,7 @@
 		7E68A5221F1DEA2C0073A18D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15470683267B57D000EB525A /* UserFeedBack.framework */,
 				7E68A5371F1DEA840073A18D /* WebKit.framework */,
 				7E68A5351F1DEA720073A18D /* UIKit.framework */,
 				7E68A5331F1DEA6D0073A18D /* Foundation.framework */,
@@ -160,6 +164,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7E68A4EA1F1DD1FC0073A18D;
@@ -278,6 +283,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3BJYKWHMM4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTBaiduMobStat",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,6 +302,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3BJYKWHMM4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTBaiduMobStat",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
