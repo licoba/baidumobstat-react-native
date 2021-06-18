@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* BaiduTongjiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BaiduTongjiTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		676F48722B10830FF2C1F7A4 /* libPods-BaiduTongji-BaiduTongjiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7347C21A7AD6FC2382E5F894 /* libPods-BaiduTongji-BaiduTongjiTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		D82F58730B5973176B30738A /* libPods-BaiduTongji.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166329C8970265D781336F54 /* libPods-BaiduTongji.a */; };
-		3070443809924E5EAC464151 /* libRCTBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3236895C6D4639B37B62A2 /* libRCTBaiduMobStat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,24 +25,18 @@
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* BaiduTongjiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduTongjiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* BaiduTongjiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduTongjiTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BaiduTongji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduTongji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BaiduTongji/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BaiduTongji/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BaiduTongji/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BaiduTongji/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaiduTongji/main.m; sourceTree = "<group>"; };
-		166329C8970265D781336F54 /* libPods-BaiduTongji.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduTongji.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4BD8DCC12D70EFEDE1FAC9 /* Pods-BaiduTongji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduTongji.debug.xcconfig"; path = "Target Support Files/Pods-BaiduTongji/Pods-BaiduTongji.debug.xcconfig"; sourceTree = "<group>"; };
-		7347C21A7AD6FC2382E5F894 /* libPods-BaiduTongji-BaiduTongjiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduTongji-BaiduTongjiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BaiduTongji/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85BB5C3CDC9937F49324ACDC /* Pods-BaiduTongji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduTongji.release.xcconfig"; path = "Target Support Files/Pods-BaiduTongji/Pods-BaiduTongji.release.xcconfig"; sourceTree = "<group>"; };
 		DAC1422CCC9FF01E36F3A079 /* Pods-BaiduTongji-BaiduTongjiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduTongji-BaiduTongjiTests.debug.xcconfig"; path = "Target Support Files/Pods-BaiduTongji-BaiduTongjiTests/Pods-BaiduTongji-BaiduTongjiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD917A9EA969DE806D767A10 /* Pods-BaiduTongji-BaiduTongjiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduTongji-BaiduTongjiTests.release.xcconfig"; path = "Target Support Files/Pods-BaiduTongji-BaiduTongjiTests/Pods-BaiduTongji-BaiduTongjiTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		120E9708C06D441691037C3B /* RCTBaiduMobStat.xcodeproj */ = {isa = PBXFileReference; name = "RCTBaiduMobStat.xcodeproj"; path = "../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/RCTBaiduMobStat.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		FD3236895C6D4639B37B62A2 /* libRCTBaiduMobStat.a */ = {isa = PBXFileReference; name = "libRCTBaiduMobStat.a"; path = "libRCTBaiduMobStat.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676F48722B10830FF2C1F7A4 /* libPods-BaiduTongji-BaiduTongjiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,31 +51,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82F58730B5973176B30738A /* libPods-BaiduTongji.a in Frameworks */,
-				3070443809924E5EAC464151 /* libRCTBaiduMobStat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* BaiduTongjiTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* BaiduTongjiTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = BaiduTongjiTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* BaiduTongji */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,33 +70,29 @@
 			name = BaiduTongji;
 			sourceTree = "<group>";
 		};
+		15470685267CA35000EB525A /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				166329C8970265D781336F54 /* libPods-BaiduTongji.a */,
-				7347C21A7AD6FC2382E5F894 /* libPods-BaiduTongji-BaiduTongjiTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				120E9708C06D441691037C3B /* RCTBaiduMobStat.xcodeproj */,
-			);
-			name = Libraries;
 			sourceTree = "<group>";
 		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
 				13B07FAE1A68108700A75B9A /* BaiduTongji */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* BaiduTongjiTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				DC885141A6701580DF019A74 /* Pods */,
+				15470685267CA35000EB525A /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -150,7 +116,6 @@
 				DAC1422CCC9FF01E36F3A079 /* Pods-BaiduTongji-BaiduTongjiTests.debug.xcconfig */,
 				DD917A9EA969DE806D767A10 /* Pods-BaiduTongji-BaiduTongjiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* BaiduTongjiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,12 +405,20 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
+				);
 				INFOPLIST_FILE = BaiduTongjiTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -456,14 +428,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduTongji.app/BaiduTongji";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
-				);
 			};
 			name = Debug;
 		};
@@ -473,12 +437,20 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
+				);
 				INFOPLIST_FILE = BaiduTongjiTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -488,14 +460,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduTongji.app/BaiduTongji";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
-				);
 			};
 			name = Release;
 		};
@@ -506,7 +470,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FK9K4NGB5Q;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
+				);
 				INFOPLIST_FILE = BaiduTongji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,10 +491,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
-				);
 			};
 			name = Debug;
 		};
@@ -536,6 +501,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FK9K4NGB5Q;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
+				);
 				INFOPLIST_FILE = BaiduTongji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -550,10 +520,6 @@
 				PRODUCT_NAME = BaiduTongji;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-tmk-baidumobstat/ios/RCTBaiduMobStat/**",
-				);
 			};
 			name = Release;
 		};
