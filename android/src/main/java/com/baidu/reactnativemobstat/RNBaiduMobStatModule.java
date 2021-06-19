@@ -40,6 +40,18 @@ public class RNBaiduMobStatModule extends ReactContextBaseJavaModule {
         StatService.setUserId(this.reactContext, userId);
     }
 
+    // 初始化百度统计SDK
+    @ReactMethod
+    public void initBaiduMobStat(String appKey,boolean debugOn) {
+        Log.d("BaiduMobStat", "测试设备ID: " + StatService.getTestDeviceId(reactContext));
+        StatService.setAuthorizedState(reactContext, true);
+        StatService.setDebugOn(debugOn);
+        StatService.setAppKey(appKey);
+//        StatService.autoTrace(reactContext);
+        StatService.start(reactContext);
+    }
+
+
     /**
      * 设置全局附加信息，设置的附加信息会组装在日志头部。只需设置一次，设置后，相关数据会保留，每次发送的日志都会携带此信息
      *

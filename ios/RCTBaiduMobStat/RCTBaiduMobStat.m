@@ -17,6 +17,15 @@ RCT_EXPORT_METHOD(setUserId:(NSString *)userId) {
     [[BaiduMobStat defaultStat] setUserId:userId];
 }
 
+RCT_EXPORT_METHOD(initBaiduMobStat:(NSString *)appId debugOn:(BOOL)debugOn) {
+    NSString *deviceId =[[BaiduMobStat defaultStat] getTestDeviceId];
+    NSLog(@"[BaiduMobStat]:调试设备ID：%@",deviceId); // 调试设备ID：0CA630FC78C5D350B2A242842C9A9353
+    [[BaiduMobStat defaultStat] setChannelId:@"Apple Store"];
+    [[BaiduMobStat defaultStat] setEnableDebugOn:debugOn];
+    [[BaiduMobStat defaultStat] setEnableEventAutoTrack:false]; // 设置控件点击event事件是否监控
+    [[BaiduMobStat defaultStat] startWithAppId:appId];
+}
+
 RCT_EXPORT_METHOD(setGlobalExtraInfo:(NSDictionary *)extraDictionary) {
     BaiduMobStatExtraInfo *extraInfo = [[BaiduMobStatExtraInfo alloc] init];
     for (NSString *key in extraDictionary) {
