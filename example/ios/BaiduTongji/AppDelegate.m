@@ -52,7 +52,7 @@ static void InitializeFlipper(UIApplication *application) {
   NSLog(@"[BaiduMobStat]:调试设备ID：%@",deviceId); // 调试设备ID：0CA630FC78C5D350B2A242842C9A9353
   [[BaiduMobStat defaultStat] setChannelId:@"BaiduTongji iOS"];
   [[BaiduMobStat defaultStat] setEnableDebugOn:true];
-//  [[BaiduMobStat defaultStat] setEnableEventAutoTrack:false]; // 设置控件点击event事件是否监控
+  [[BaiduMobStat defaultStat] setEnableEventAutoTrack:false]; // 设置控件点击event事件是否监控
   [[BaiduMobStat defaultStat] startWithAppId:@"a25967f126"];
   return YES;
 }
