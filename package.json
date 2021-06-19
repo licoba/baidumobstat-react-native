@@ -1,6 +1,6 @@
 {
   "name": "react-native-tmk-baidumobstat",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "React Native Plugin for Timekettle BaiduMobStat",
   "main": "index.js",
   "scripts": {
