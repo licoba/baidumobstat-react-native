@@ -47,8 +47,10 @@ public class RNBaiduMobStatModule extends ReactContextBaseJavaModule {
         StatService.setAuthorizedState(reactContext, true);
         StatService.setDebugOn(debugOn);
         StatService.setAppKey(appKey);
-//        StatService.autoTrace(reactContext);
-        StatService.start(reactContext);
+        // @param autoTrace：如果设置为true，打开自动埋点；反之关闭
+        // @param autoTrackWebview：
+        StatService.autoTrace(reactContext,true,false);
+//        StatService.start(reactContext);
     }
 
 
