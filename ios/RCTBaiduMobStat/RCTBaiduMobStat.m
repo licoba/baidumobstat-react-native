@@ -23,6 +23,7 @@ RCT_EXPORT_METHOD(initBaiduMobStat:(NSString *)appId debugOn:(BOOL)debugOn) {
     [[BaiduMobStat defaultStat] setChannelId:@"Apple Store"];
     [[BaiduMobStat defaultStat] setEnableDebugOn:debugOn];
     [[BaiduMobStat defaultStat] setEnableEventAutoTrack:false]; // 设置控件点击event事件是否监控
+    [[BaiduMobStat defaultStat] setEnableViewControllerAutoTrack:false]; // 取消View Controller的自动监控
     [[BaiduMobStat defaultStat] startWithAppId:appId];
 }
 
